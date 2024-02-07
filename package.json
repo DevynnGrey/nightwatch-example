@@ -1,0 +1,16 @@
+{
+  "name": "nightwatch-example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "An example project using Nightwatch JS as the test automation framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nightwatch ./nightwatch/examples/basic/nike.js"
+  },
+  "author": "Devynn Grey",
+  "license": "ISC",
+  "devDependencies": {
+    "@devynngrey/pageobject-helper": "^1.0.0",
+    "nightwatch": "^3.4.0"
+  }
+}
